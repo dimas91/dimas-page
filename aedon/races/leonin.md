@@ -9,7 +9,7 @@ Your Strength score increases by 2, and your Constitution score increases by 1.
 Leonin have lifespans comparable to humans. They enter adulthood in their late teens and usually live less than a century.
 
 ### Alignment 
-TODO
+While Leonin do not stand by a particular morality, they tend to be lawful about their convictions as ingrained in Leonin society through their hierarchical pack culture.
 
 ### Size 
 Leonin are taller and heavier than humans, standing well over 6 feet tall and averaging almost 250 pounds. Your size is Medium.
