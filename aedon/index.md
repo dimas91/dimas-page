@@ -2,7 +2,21 @@
 
 Aedon is a fictional fantasy world designed for gaming and storytelling.
 
-## History
+## A Brief Introduction to the History of the Realm of Aedon
+
+### The Old World
+At the dawn of time, there were only the primal deities: Astor the Allfather, Vyta the Ur-Maiden, and Urzan the Darkbringer. Astor and Urzan were brothers, and they both wanted the hand of Vyta, so they fought for eternities, creating the stars in the process. Finally, Astor managed to defeat his brother, and forever banished him to the other side of their battle's latest artifact, the world which would later be known as Aedon.
+
+Together, Astor and Vyta decided that Aedon would become the fruit of their love, and so they began sculpting the world and creating the life on this world as we know it. In the process, they had children commonly known as The Five, namely Oryan, Myria, Zyrion, Phaerion, and Ilysia, gods of Earth, Water, Sky, Fire, and Nature respectively. They, in turn, created their own lesser gods, The Many, who would serve as guardians and guides for Aedon.
+
+### The Age of Heroes
+The various races thrive and create great civilizations.
+
+### The Tyrant's Reign
+Great magical beings ruin the fun, an enormous dragon being at the heart of it all.
+
+### The Age of Reclamation
+The denizens of Aedon reclaim their old position in the world.
 
 ## Geography
 
