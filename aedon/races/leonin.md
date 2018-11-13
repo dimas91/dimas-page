@@ -1,5 +1,9 @@
 # Leonin
 
+Description about Leonin goes here.
+
+![](https://i.imgur.com/I5A7sSf.png)
+
 ## Leonin Traits
 
 ### Ability Score Increase 
