@@ -1,8 +1,7 @@
 # Aedon
 
-Aedon is a fictional fantasy world designed for gaming and storytelling.
-
 ## A Brief Introduction to the History of the Realm of Aedon
+###### as recorded by Arch-Maester Hal Vyrizh of Sanctuary
 
 ### The Old World
 At the dawn of time, there were only the primal deities: Astor the Allfather, Vyta the Ur-Maiden, and Urzan the Darkbringer. Astor and Urzan were brothers, and they both wanted the hand of Vyta, so they fought for eternities, creating the stars in the process. Finally, Astor managed to defeat his brother, and forever banished him to the other side of their battle's latest artifact, the world which would later be known as Aedon.
@@ -10,17 +9,29 @@ At the dawn of time, there were only the primal deities: Astor the Allfather, Vy
 Together, Astor and Vyta decided that Aedon would become the fruit of their love, and so they began sculpting the world and creating the life on this world as we know it. In the process, they had children commonly known as The Five, namely Oryan, Myria, Zyrion, Phaerion, and Ilysia, gods of Earth, Water, Sky, Fire, and Nature respectively. They, in turn, created their own lesser gods, The Many, who would serve as guardians and guides for Aedon.
 
 ### The Age of Heroes
-The various races thrive and create great civilizations.
+Under the watchful eye of the gods, the early civilizations prospered and grew to great heights. In this time, Aedon itself was still wild and untamed, and other creatures grew strong and plentiful as well. Many of the tales from the Age of Heroes involve battles with dragons, giant monsters, powerful spirits, armies of undead, and entities that were part of the world itself.
+
+Over a long, long time, civilizations grew to their limits and beyond. The dwarves of the west had their city streets lined with silver and gold. The elves of the east had their metropolis of Ilyen, harmonically interwoven into the forests of their home land. The Leonin lived peacefully on the Silent Flats, having tamed the wildlife that came before. The orcs in the south had an abundance of food that came from their fertile lands. And the humans at the center of it all thrived on the abundance of trade from the peace in the realm. 
 
 ### The Tyrant's Reign
-Great magical beings ruin the fun, an enormous dragon being at the heart of it all.
+As if the gods decided that their creations had gone too far, Aedon came alive again, and once again stone giants, living trees, strong and an abundance of fantastic beasts began to terrorize the realm again. That's when the dragons, now commanded by the Tyrant, a powerful force of nature in the form of a dragon that could blot out Astor's light, began ripping apart civilizations piece by piece.
+
+With society crumbling, the armies of Aedon united and sent forth their champions to engage the Tyrant in combat on Astor's Seat, with a plan that would cost many lives at best, and would leave them defenseless at worst. The plan worked, and through a coordinated effort of combat, spells, and enchantments that required an army of wizards in their own regard, the Tyrant was pulled from the sky and defeated. With the power of the Arcane Legion and the blood of the Tyrant and the champions of Aedon combined, a spell named The Great Veil was cast to dampen the power of magics in the world, so no such being would ever come into existence again.
 
 ### The Age of Reclamation
-The denizens of Aedon reclaim their old position in the world.
+Under the protective power of The Veil, societies were rebuilt on the ruins of their previous splendor. However, the sheer decimation caused by the reign of the Tyrant left the realm splintered and weak. Many wars were fought between different factions, and progress was slow. Eventually, society stabilized, some former glory was reclaimed, and the different kingdoms and empires flourished once more, although never coming close to their former glory. After a number of wars and uprisings, an uneasy coalition has been formed for the prosperity of the realm. While the realm seems at peace, different groups are on the move, there are stirrings beneath the surface of the world and the seas, and reports of mystical and awesome creatures are becoming more and more common..
+
+#### Welcome to Aedon.
 
 ## Geography
 
-## As a D&D setting
+### Mainland Aedon
+
+### Westron
+
+### Ilysia & Araha
+
+## For RPGs
 
 ### Races
 
@@ -34,83 +45,16 @@ The denizens of Aedon reclaim their old position in the world.
 
 ### Classes
 
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Barbarian
+* Bard
+* Cleric
+* Druid
+* Fighter
+* Monk
+* Paladin
+* Ranger
+* Rogue
+* Sorcerer
+* Warlock
+* Wizard
+* Geomancer (custom class)
