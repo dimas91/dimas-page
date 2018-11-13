@@ -4,11 +4,11 @@
 ###### as recorded by Arch-Maester Hal Vyrizh of Sanctuary
 
 ### The Old World
-At the dawn of time, there were only the primal deities: Astor the Allfather, Vyta the Ur-Maiden, and Urzan the Darkbringer. Astor and Urzan were brothers, and they both wanted the hand of Vyta, so they fought for eternities, creating the stars in the process. Finally, Astor managed to defeat his brother, and forever banished him to the other side of their battle's latest artifact, the world which would later be known as Aedon.
+At the dawn of time, there were only the primal deities: Astor the Allfather, Vyta the Ur-Maiden, and Urzan the Darkbringer. Astor and Urzan were brothers, and they both wanted the hand of Vyta, so they fought for eternities, creating the stars from the sparks that flew during their battle. Eventually, Astor managed to defeat his brother, and then created the empty world of Aedon from Urzan's shield, before banishing Urzan to the other side of Aedon so they would never lay  eyes on each other again.
 
 ![A primeval angel](https://i.imgur.com/qWLjtC4.png)
 
-Together, Astor and Vyta decided that Aedon would become the fruit of their love, and so they began sculpting the world and creating the life on this world as we know it. In the process, they had children commonly known as The Five, namely Oryan, Myria, Zyrion, Phaerion, and Ilysia, gods of Earth, Water, Sky, Fire, and Nature respectively. They, in turn, created their own lesser gods, The Many, who would serve as guardians and guides for Aedon.
+Together, Astor and Vyta decided that Aedon would become the fruit of their love, and so they began sculpting the world and planting the seeds of life. During that time, they had children who would control the elements of Aedon, commonly known as The Five, namely Oryan, Myria, Zyrion, Phaerion, and Ilysia, gods of Earth, Water, Sky, Fire, and Nature respectively. They, in turn, created their own lesser gods, The Many, who would serve as guardians and guides for Aedon.
 
 ### The Age of Heroes
 Under the watchful eye of the gods, the early civilizations prospered and grew to great heights. In this time, Aedon itself was still wild and untamed, and other creatures grew strong and plentiful as well. Many of the tales from the Age of Heroes involve battles with dragons, giant monsters, powerful spirits, armies of undead, and entities that were part of the world itself.
