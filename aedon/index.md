@@ -42,6 +42,8 @@ Under the protective power of The Veil, societies were rebuilt on the ruins of t
 
 ## For RPGs
 
+[Building a D&D character](https://geekandsundry.com/tag/beginners-guide-to-dd-character-building/)
+
 ### Races [see SRD](https://roll20.net/compendium/dnd5e/Index%3ARaces)
 
 * Human
