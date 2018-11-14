@@ -1,6 +1,6 @@
 # Leonin
 
-Description about Leonin goes here.
+The leonin are a proud race that have formed their own path since the dawn of civilization. Large and strong, leonin have historically been adept warriors, and physicality and power has played a central role in leonin society. After a long, bloody war that ended up with the decimation of the leonin race a long time ago, leonin had been relegated to the role of servants to the other races for a long time. It took another revolution for the leonin to take their freedom back, and with that reinstall themselves as one of the major races of Aedon. However, even though their clans and cities have found their previous glory again, the individuality and nomadism from their period of persecution has remained as a common way of living for a leonin, often guided by a strong desire to find a purpose in life.
 
 ![](https://i.imgur.com/I5A7sSf.png)
 
