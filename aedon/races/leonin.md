@@ -28,7 +28,7 @@ You have proficiency in the Athletics skill.
 You can unleash a bellowing roar towards a single target within 15 feet, who will become Frightened if it fails a DC 15 Wisdom saving throw. After you use this trait, you can’t use it again until you finish a short or long rest.
 
 ### Furry Coat
-Your fur gives you innate damage reduction from cold damage.
+Your fur gives you innate damage resistance against cold damage.
 
 ### Languages
 You can speak, read, and write Common. You may know just enough Beastspeak to hold a simple conversation. Beastspeak sounds harsh to most other creatures and includes numerous hard consonants and sibilants.
