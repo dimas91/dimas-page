@@ -3,9 +3,11 @@
 As a Geomancer, you gain the following Class Features.
 
 ## Hit Points
-Hit Dice: 1d6 per Geomancer level
-Hit Points at 1st Level: 6 + your Constitution modifier
-Hit Points at Higher Levels: 1d6 (or 4) + your Constitution modifier per Geomancer level after 1st
+Hit Dice: 1d6 per Geomancer level 
+
+Hit Points at 1st Level: 6 + your Constitution modifier 
+
+Hit Points at Higher Levels: 1d6 (or 4) + your Constitution modifier per Geomancer level after 1st 
 
 ## Starting Proficiencies
 You are proficient with the following items, in addition to any proficiencies provided by your race or background.
