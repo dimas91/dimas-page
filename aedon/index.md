@@ -48,30 +48,30 @@ Aedon can be used as a typical high fantasy setting.
 
 Don't know how to build a D&D character? Click here: [Building a D&D character](https://geekandsundry.com/tag/beginners-guide-to-dd-character-building/)
 
-### Races [see SRD](https://roll20.net/compendium/dnd5e/Index%3ARaces)
+### Races [see D&D Beyond](https://www.dndbeyond.com/characters/races)
 
-* Human
-* Dwarf
-* Elf
-* Half-Elf
-* Half-Orc (which in Aedon will be just a regular orc)
-* [Leonin](http://dimas.io/aedon/races/leonin) (Lionpeople!)
-* Gnome
+* **[Human](https://www.dndbeyond.com/characters/races/human)**
+* **[Dwarf](https://www.dndbeyond.com/characters/races/dwarf)**
+* **[Elf](https://www.dndbeyond.com/characters/races/elf)**
+* **[Half-Elf](https://www.dndbeyond.com/characters/races/half-elf)**
+* **[Half-Orc](https://www.dndbeyond.com/characters/races/half-orc)** (which in Aedon will be just a regular orc)
+* **[Leonin](http://dimas.io/aedon/races/leonin)** (Lionpeople!)
+* **[Gnome](https://www.dndbeyond.com/characters/races/gnome)**
 
-But if you want to play a Halfling, Tiefling, or another fancy race that is not in the 5e player's handbook feel free to do so. This world is your oyster.
+But if you want to play a Dragonborn, Halfling, Tiefling, or another fancy race that is not from the 5e player's handbook feel free to do so. This world is your oyster.
 
-### Classes [see SRD](https://roll20.net/compendium/dnd5e/Classes%20by%20Name)
+### Classes [see D&D Beyond](https://www.dndbeyond.com/characters/classes)
 
-* **Barbarian**: Think Conan. They wear little to no armour, are savage and brutal melee combatants that are incredibly tough to take down when they fly into a combat rage (potentially the toughest to kill of all classes).
-* **Bard**: Magical minstrel. They cast spells that buff the party or hinder enemies and are generally the most adapt at both high and low social situations due to their musical entertaining skills. Also very entertaining to play yourself.
-* **Cleric**: Clerics are spellcasters who follow a deity, have a buff-heavy spell list with major abilities themed to their deity, and can choose to either be frontline melee fighters or backline spellcasters. Can heal as well.
-* **Druid**: Natural healers or vicious shape shifters. In tune with the wild druids can serve as party healers or take the form of animals to engage in combat.
-* **Fighter**: Heavily armed and armoured melee or ranged combatants. Trained in all weapons, armour and shields fighters can deal damage, take damage and defend the party.
-* **Monk**: Incredibly skilled spiritual warriors that can engage in melee combat. While they won't be doing as much damage as say a Paladin or Fighter they have a massive array of debilitating effects to disrupt enemies.
-* **Paladin**: Holy melee warriors. Heavily clad in armour Paladins can do some modest healing like a lite-Cleric but focus more on smiting evil through holy spells and melee combat. Additionally, Paladins command respect for many classes in society and make excellent social characters.
-* **Ranger**: Ranged or melee hunters adept at surviving in the wilds. They can cast moderate amount of spells and are especially knowledgable about specific creatures and types of terrain.
-* **Rogue**: *Not thieves:* Rogues. Trained (self or otherwise) in underhanded tactics such as sneaking, stealing, picking pockets and locks, disable and setting traps. They fight with guile rather than strength. They can also be a smooth-talker depending on how they are made. Nobody will have a set of skills as diverse as the Rogue. Think Jack Sparrow or Han Solo.
-* **Sorcerer**: A natural spell caster. Where Wizards train Sorcerers have spellcasting in their blood. They are often ranged damage dealers but can also be healers. Their natural abilities also make them naturally good in dealing socially with people making them great party faces.
-* **Warlock**: While Sorcerers have spellcasting as a natural ability and Wizards train Warlocks make a pact with a powerful being in exchange for power. This pact is often for good but can also be for evil. Like Sorcerers they make good party faces.
-* **Wizard**: Nobody can match the diversity of a wizards spellbook and years of training. Their spells often make them the most powerful burst damage dealers in combat and their knowledge of Arcane lore and History are useful in many situations.
+* **[Barbarian](https://www.dndbeyond.com/characters/classes/barbarian)**: Think Conan. They wear little to no armour, are savage and brutal melee combatants that are incredibly tough to take down when they fly into a combat rage (potentially the toughest to kill of all classes).
+* **[Bard](https://www.dndbeyond.com/characters/classes/bard)**: Magical minstrel. They cast spells that buff the party or hinder enemies and are generally the most adapt at both high and low social situations due to their musical entertaining skills. Also very entertaining to play yourself.
+* **[Cleric](https://www.dndbeyond.com/characters/classes/cleric)**: Clerics are spellcasters who follow a deity, have a buff-heavy spell list with major abilities themed to their deity, and can choose to either be frontline melee fighters or backline spellcasters. Can heal as well.
+* **[Druid](https://www.dndbeyond.com/characters/classes/druid)**: Natural healers or vicious shape shifters. In tune with the wild druids can serve as party healers or take the form of animals to engage in combat.
+* **[Fighter](https://www.dndbeyond.com/characters/classes/fighter)**: Heavily armed and armoured melee or ranged combatants. Trained in all weapons, armour and shields fighters can deal damage, take damage and defend the party.
+* **[Monk](https://www.dndbeyond.com/characters/classes/monk)**: Incredibly skilled spiritual warriors that can engage in melee combat. While they won't be doing as much damage as say a Paladin or Fighter they have a massive array of debilitating effects to disrupt enemies.
+* **[Paladin](https://www.dndbeyond.com/characters/classes/paladin)**: Holy melee warriors. Heavily clad in armour Paladins can do some modest healing like a lite-Cleric but focus more on smiting evil through holy spells and melee combat. Additionally, Paladins command respect for many classes in society and make excellent social characters.
+* **[Ranger](https://www.dndbeyond.com/characters/classes/ranger)**: Ranged or melee hunters adept at surviving in the wilds. They can cast moderate amount of spells and are especially knowledgable about specific creatures and types of terrain.
+* **[Rogue](https://www.dndbeyond.com/characters/classes/rogue)**: *Not thieves:* Rogues. Trained (self or otherwise) in underhanded tactics such as sneaking, stealing, picking pockets and locks, disable and setting traps. They fight with guile rather than strength. They can also be a smooth-talker depending on how they are made. Nobody will have a set of skills as diverse as the Rogue. Think Jack Sparrow or Han Solo.
+* **[Sorcerer](https://www.dndbeyond.com/characters/classes/sorcerer)**: A natural spell caster. Where Wizards train Sorcerers have spellcasting in their blood. They are often ranged damage dealers but can also be healers. Their natural abilities also make them naturally good in dealing socially with people making them great party faces.
+* **[Warlock](https://www.dndbeyond.com/characters/classes/warlock)**: While Sorcerers have spellcasting as a natural ability and Wizards train Warlocks make a pact with a powerful being in exchange for power. This pact is often for good but can also be for evil. Like Sorcerers they make good party faces.
+* **[Wizard](https://www.dndbeyond.com/characters/classes/wizard)**: Nobody can match the diversity of a wizards spellbook and years of training. Their spells often make them the most powerful burst damage dealers in combat and their knowledge of Arcane lore and History are useful in many situations.
 * **[Geomancer](http://dimas.io/aedon/classes/geomancer)**: Custom class, basically a high fantasy earthbender wizard.
