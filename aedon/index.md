@@ -32,7 +32,7 @@ Under the protective power of The Veil, societies were rebuilt on the ruins of t
 
 ## Geography
 
-[Click here to see the map! (WIP)](https://i.imgur.com/4OptccH.jpg)
+### [Click here to see the map! (WIP)](https://i.imgur.com/4OptccH.jpg)
 
 Aedon consists of 3 subcontinents: 
 * **Westron**, a continent stretched from the icy north to the temperate south, with a mountain range along its entire spine. Used to be the land of the dwarves. The continent is split in half by a range of smaller mountains, leaving the continent split in northern and southern kingdoms.
