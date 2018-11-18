@@ -164,6 +164,7 @@ Once a day, you can use your action to eat a gem to gain a temporary ability. Th
 | Citrine          | Lightning Damage Resistance|
 | Tiger's Eye      | Darkvision               |
 | Sapphire         | Water Breathing          |
+| Diamond          | Magic Resistance         |
 
 ### Stone’s Durability
 At 1st level, your connection to stone gives you extra fortitude. Your hit point maximum increases by 1, and it increases by 1 again whenever you gain a level in this class. As an action, you can gain a base AC of 13 + your Constitution modifier if you aren’t wearing armor, and your skin assumes a stony appearance. This effect lasts until you end it as a bonus action, you are incapacitated, or you don armor other than a shield.
