@@ -80,9 +80,7 @@ Spell Attack modifier = your proficiency bonus + your Charisma modifier
 You can use an arcane focus as a Spellcasting focus for your Geomancer Spells.
 
 ## Sorcerous Origin
-Choose a sorcerous Origin, which describes the source of your innate magical power, such as Draconic Bloodline.
-
-Your choice grants you features when you choose it at 1st level and again at 6th, 14th, and 18th level.
+Your sorcerous Origin grants you features when you choose it at 1st level and again at 6th, 14th, and 18th level.
 
 ## Font of Magic
 At 2nd level, you tap into a deep wellspring of magic within yourself. This wellspring is represented by sorcery points, which allow you to create a variety of magical effects.
@@ -153,6 +151,17 @@ Your magic springs from a mystical link between your soul and the magic of eleme
 
 ### Bonus Proficiencies
 At 1st level, you gain proficiency with shields, simple weapons, and martial weapons.
+
+### Mineral Munching
+Once a day, you can use your action to eat a gem to gain a temporary ability. The type of gem decides the type of ability which can be found in the table below, and the size of the gem determines the duration, where you can choose between eating a gem fragment (1/4 of a gem) for a duration of 1 hour or an entire gem for a duration of 8 hours. After you use this ability, you can’t use it again until you complete a long rest.
+
+| Gem Type         | Ability |
+|------------------|--------------------------|
+| Azurite          | Cold Damage Resistance   |
+| Malachite        | Protection from Poison   |
+| Rhodochrosite    | Fire Damage Resistance   |
+| Tiger's Eye      | Darkvision               |
+| Sapphire         | Water Breathing          |
 
 ### Stone’s Durability
 At 1st level, your connection to stone gives you extra fortitude. Your hit point maximum increases by 1, and it increases by 1 again whenever you gain a level in this class. As an action, you can gain a base AC of 13 + your Constitution modifier if you aren’t wearing armor, and your skin assumes a stony appearance. This effect lasts until you end it as a bonus action, you are incapacitated, or you don armor other than a shield.
