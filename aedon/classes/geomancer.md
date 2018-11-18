@@ -153,13 +153,15 @@ Your magic springs from a mystical link between your soul and the magic of eleme
 At 1st level, you gain proficiency with shields, simple weapons, and martial weapons.
 
 ### Mineral Munching
-Once a day, you can use your action to eat a gem to gain a temporary ability. The type of gem decides the type of ability which can be found in the table below, and the size of the gem determines the duration, where you can choose between eating a gem fragment (1/4 of a gem) for a duration of 1 hour or an entire gem for a duration of 8 hours. After you use this ability, you can’t use it again until you complete a long rest.
+Once a day, you can use your action to eat a gem to gain a temporary ability. The type of gem decides the type of ability which can be found in the table below, and the size of the gem determines the duration, where you can choose between eating a gem fragment (1/3 of a gem) for a duration of 1 hour or an entire gem for a duration of 8 hours. After you use this ability, you can’t use it again until you complete a long rest.
 
 | Gem Type         | Ability |
 |------------------|--------------------------|
 | Azurite          | Cold Damage Resistance   |
 | Malachite        | Protection from Poison   |
 | Rhodochrosite    | Fire Damage Resistance   |
+| Obsidian         | Acid Damage Resistance   |
+| Citrine          | Lightning Damage Resistance|
 | Tiger's Eye      | Darkvision               |
 | Sapphire         | Water Breathing          |
 
