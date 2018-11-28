@@ -191,7 +191,7 @@ Beginning at 18th level, when you use your Stone’s Aegis to protect an ally, y
 
 **Components:** V, S
 
-**Duration** Instantaneous
+**Duration:** Instantaneous
 
 You hurl a lump of rock at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 bludgeoning damage.
 The spell creates more than one rock when you reach higher levels: two rocks at 5th level, three rocks at 11th level, and four rocks at 17th level. You can direct the rocks at the same target or at different ones. Make a separate attack roll for each rock.
@@ -203,7 +203,7 @@ The spell creates more than one rock when you reach higher levels: two rocks at 
 
 **Components:** V, S
 
-**Duration** Instantaneous
+**Duration:** Instantaneous
 
 Choose a portion of dirt or stone that you can see and fits in a 5-foot cube. You change it in one of the following ways:
 If you target loose earth, you can move it up to 5 feet away. This movement doesn't deal damage.
@@ -220,7 +220,7 @@ If you cast this spell multiple times, you can have no more than two of its non-
 
 **Components:** V, S
 
-**Duration** Instantaneous
+**Duration:** Instantaneous
 
 A wave of rocks sweeps out from you. Each creature in a 15-foot cube originating from you must make a Dexterity saving throw. On a failed save, a creature takes 2d8 bludgeoning damage and is pushed 10 feet away from you. On a successful save, the creature takes half as much damage and isn't pushed. In addition, unsecured objects that are completely within the area of effect are automatically pushed 10 feet away from you by the spell’s effect, and the spell emits a thunderous boom audible out to 300 feet.
 **At Higher Levels:** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.
@@ -232,7 +232,7 @@ A wave of rocks sweeps out from you. Each creature in a 15-foot cube originating
 
 **Components:** V S M (a bit of clay)
 
-**Duration** 8 hours
+**Duration:** 8 hours
 
 You touch a willing creature who isn't wearing armor, and a protective magical force surrounds it until the spell ends. The target's base AC becomes 13 + its Dexterity modifier. The spell ends if the target dons armor or if you dismiss the spell as an action.
 
@@ -243,7 +243,18 @@ You touch a willing creature who isn't wearing armor, and a protective magical f
 
 **Components:** V, S
 
-**Duration** 1 minute
+**Duration:** 1 minute
+
+You roughen the earth in a 10-foot square centered on a point within range, creating loose and spiky rocks which turn it into difficult terrain for the duration. When the rocks appear, each creature standing in its area must succeed on a Dexterity saving throw or fall prone. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw or fall prone.
+
+### Detect Artifice
+**Time:** 1 action
+
+**Range:** Self
+
+**Components:** V, S
+
+**Duration:** Instantaneous
 
 You roughen the earth in a 10-foot square centered on a point within range, creating loose and spiky rocks which turn it into difficult terrain for the duration. When the rocks appear, each creature standing in its area must succeed on a Dexterity saving throw or fall prone. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw or fall prone.
 
@@ -256,7 +267,7 @@ You roughen the earth in a 10-foot square centered on a point within range, crea
 
 **Components:** V S M (grindstpne)
 
-**Duration** Concentration, up to 10 minutes
+**Duration:** Concentration, up to 10 minutes
 
 You evoke a rocky blade in your free hand. The blade is similar in size and shape to a scimitar, and it lasts for the duration. If you let go of the blade, it disappears, but you can evoke the blade again as a bonus action. You can use your action to make a melee spell attack with the blade. On a hit, the target takes 3d6 piercing damage. 
 
@@ -267,29 +278,55 @@ You evoke a rocky blade in your free hand. The blade is similar in size and shap
 
 **Components:** V, S
 
-**Duration** Instantaneous
+**Duration:** Instantaneous
 
 You create three balls of mud or dust and hurl them at targets within range. You can hurl them at one target or several. Make a ranged spell attack for each ray. On a hit, the target takes 2d6 bludgeoning damage.
 **At Higher Levels:** When you cast this spell using a spell slot of 3rd level or higher, you create one additional ray for each slot level above 2nd.
 
+### Shatter
+https://roll20.net/compendium/dnd5e/Shatter
+
+### Locate Object (on ground)
+https://roll20.net/compendium/dnd5e/Locate%20Object
+
+### Heat Metal
+https://roll20.net/compendium/dnd5e/Heat%20Metal
+
+### Spike Growth
+https://roll20.net/compendium/dnd5e/Spike%20Growth
+
 ## Level 3
+
+### Fireball
+https://roll20.net/compendium/dnd5e/Fireball
+
+### Tiny Hut
+https://roll20.net/compendium/dnd5e/Tiny%20Hut
+
+### Meld Into Stone
+https://roll20.net/compendium/dnd5e/Meld%20into%20Stone
 
 ## Level 4
 
-### Name
+### Rock Storm
 **Time:** 1 action
 
 **Range:** 300 feet
 
 **Components:** V, S
 
-**Duration** Instantaneous
+**Duration:** Instantaneous
 
 A cloud of sharp rocks pounds to the ground in a 20-foot-radius, 40-foot-high cylinder centered on a point within range. Each creature in the cylinder must make a Dexterity saving throw. A creature takes 2d8 bludgeoning damage and 4d6 piercing damage on a failed save, or half as much damage on a successful one. The rocks turn the storm’s area of effect into difficult terrain until the end of your next turn.
 **At Higher Levels:** When you cast this spell using a spell slot of 5th level or higher, the bludgeoning damage increases by 1d8 for each slot level above 4th.
 
-## Level 5
+### Stoneskin
+https://roll20.net/compendium/dnd5e/Stoneskin
 
+### Conjure Minor Elementals (Gargoyle from PHB)
+https://roll20.net/compendium/dnd5e/Conjure%20Minor%20Elementals
+
+## Level 5
 
 ### Molten Rain
 **Time:** action
@@ -298,10 +335,63 @@ A cloud of sharp rocks pounds to the ground in a 20-foot-radius, 40-foot-high cy
 
 **Components:** V, S
 
-**Duration** Instantaneous
+**Duration:** Instantaneous
 
 Sharp chunks of smouldering hot rocks rain down from the sky in a location you specify. Each creature in a 10-foot-radius, 40-foot-high cylinder centered on a point within range must make a Dexterity saving throw. A creature takes 4d6 fire damage and 4d6 piercing damage on a failed save, or half as much damage on a successful one.
 When you cast this spell using a spell slot of 6th level or higher, the fire damage or the piercing damage (your choice) increases by 1d6 for each slot level above 5th.
+
+### Wall of Stone
+https://roll20.net/compendium/dnd5e/Wall%20of%20Stone
+
+### Arcane Hand
+https://roll20.net/compendium/dnd5e/Arcane%20Hand
+
+### Conjure Elemental
+https://roll20.net/compendium/dnd5e/Conjure%20Elemental
+
+### Hold Monster
+https://roll20.net/compendium/dnd5e/Hold%20Monster
+
+### Stone Shape
+https://roll20.net/compendium/dnd5e/Stone%20Shape
+
+## Level 6
+
+### Blade Barrier
+https://roll20.net/compendium/dnd5e/Blade%20Barrier
+
+### Flesh To Stone
+https://roll20.net/compendium/dnd5e/Flesh%20to%20Stone
+
+### Move Earth
+https://roll20.net/compendium/dnd5e/Move%20Earth
+
+## Level 7
+
+### Delayed Blast Fireball
+https://roll20.net/compendium/dnd5e/Delayed%20Blast%20Fireball
+
+### Forcecage
+https://roll20.net/compendium/dnd5e/Forcecage
+
+### Conjure Celestial (Conjure Major Earth Elemental)
+https://roll20.net/compendium/dnd5e/Conjure%20Celestial
+
+### Plane Shift
+https://roll20.net/compendium/dnd5e/Plane%20Shift
+
+## Level 8
+
+### Earthquake
+https://roll20.net/compendium/dnd5e/Earthquake
+
+## Level 9
+
+### Meteor Swarm
+https://roll20.net/compendium/dnd5e/Meteor%20Swarm
+
+### Imprisonment
+https://roll20.net/compendium/dnd5e/Imprisonment
 
 ### Name
 **Time:** action
@@ -310,7 +400,7 @@ When you cast this spell using a spell slot of 6th level or higher, the fire dam
 
 **Components:** V, S
 
-**Duration** Instantaneous
+**Duration:** Instantaneous
 
 Description
 
