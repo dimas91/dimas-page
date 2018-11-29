@@ -72,8 +72,9 @@ Additionally, when you gain a level in this class, you can choose one of the Geo
 
 Charisma is your Spellcasting ability for your Geomancer Spells, since the power of your magic relies on your ability to project your will into the world. You use your Charisma whenever a spell refers to your Spellcasting ability. In addition, you use your Charisma modifier when Setting the saving throw DC for a Geomancer spell you cast and when Making an Attack roll with one.
 
-Spell save DC = 8 + your proficiency bonus + your Charisma modifier
-Spell Attack modifier = your proficiency bonus + your Charisma modifier
+**Spell save DC** = 8 + your proficiency bonus + your Charisma modifier
+
+**Spell Attack modifier** = your proficiency bonus + your Charisma modifier
 
 ### Spellcasting Focus
 
@@ -256,7 +257,7 @@ You roughen the earth in a 10-foot square centered on a point within range, crea
 
 **Duration:** Instantaneous
 
-You roughen the earth in a 10-foot square centered on a point within range, creating loose and spiky rocks which turn it into difficult terrain for the duration. When the rocks appear, each creature standing in its area must succeed on a Dexterity saving throw or fall prone. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw or fall prone.
+You are able to detect and identify artificial objects like traps and metals in or on the ground within 30 feet of you.
 
 ## Level 2
 
