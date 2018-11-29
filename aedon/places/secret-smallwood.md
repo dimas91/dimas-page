@@ -22,3 +22,5 @@ https://roll20.net/compendium/dnd5e/Boar
 https://roll20.net/compendium/dnd5e/Giant%20Boar 
 
 https://roll20.net/compendium/dnd5e/Brown%20Bear 
+
+https://roll20.net/compendium/dnd5e/Skeleton
