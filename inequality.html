@@ -259,25 +259,15 @@
                         }
                     })
                     // Add mouseover to return tooltip (infobox) for the current country
-                    .on("mouseover", function (d) {
-                        let country = d.properties.name_long;
-                        let ineq = "";
-                        if (country in inequalityData) {
-                            ineq = inequalityData[country]['World Bank Gini']['%'];
-                            if (ineq == "")
-                            {
-                                ineq = "No data available";
-                            }
-                        }
-                        else ineq = "No data available";
+                    .on("mouseenter", function (d) {
                         return tooltip.style("visibility", "visible")
-                            .text(d.properties.name_long + ": " + ineq);
+                            .text(buildInfoString(d, inequalityData));
                     })
                     .on("mousemove", function () {
                         return tooltip.style("top",
                             (d3.event.pageY - 10) + "px").style("left", (d3.event.pageX + 10) + "px");
                     })
-                    .on("mouseout", function () {
+                    .on("mouseleave", function () {
                         return tooltip.style("visibility", "hidden");
                     })
                     // add an onclick action to zoom into clicked country
@@ -285,59 +275,6 @@
                         d3.selectAll(".country").classed("country-on", false);
                         d3.select(this).classed("country-on", true);
                         boxZoom(path.bounds(d), path.centroid(d), 20);
-                    });
-                // Add a label group to each feature/country. This will contain the country name and a background rectangle
-                // Use CSS to have class "countryLabel" initially hidden
-                countryLabels = countriesGroup
-                    .selectAll("g")
-                    .data(json.features)
-                    .enter()
-                    .append("g")
-                    .attr("class", "countryLabel")
-                    .attr("id", function (d) {
-                        return "countryLabel" + d.properties.iso_a3;
-                    })
-                    .attr("transform", function (d) {
-                        return (
-                            "translate(" + path.centroid(d)[0] + "," + path.centroid(d)[1] + ")"
-                        );
-                    })
-                    .on("mouseout", function () { return tooltip.style("visibility", "hidden"); })
-                    // add an onlcick action to zoom into clicked country
-                    .on("click", function (d, i) {
-                        //d3.selectAll(".country").classed("country-on", false);
-                        //d3.select("#country" + d.properties.iso_a3).classed("country-on", true);
-                        boxZoom(path.bounds(d), path.centroid(d), 20);
-                    });
-                // add the text to the label group showing country name
-                countryLabels
-                    .append("text")
-                    .attr("class", "countryName")
-                    .style("text-anchor", "middle")
-                    .attr("dx", 0)
-                    .attr("dy", 0)
-                    .text(function (d) {
-                        let country = d.properties.name_long;
-                        if (country in inequalityData) {
-                            let ineq = inequalityData[country]['World Bank Gini']['%'];
-                            if (ineq == "") return country + ": No data";
-                            return country + ": " + inequalityData[country]['World Bank Gini']['%'];
-                        }
-                        return country + ": No data";
-                    })
-                    .call(getTextBox);
-                // add a background rectangle the same size as the text
-                countryLabels
-                    .insert("rect", "text")
-                    .attr("class", "countryLabelBg")
-                    .attr("transform", function (d) {
-                        return "translate(" + (d.bbox.x - 2) + "," + d.bbox.y + ")";
-                    })
-                    .attr("width", function (d) {
-                        return d.bbox.width + 4;
-                    })
-                    .attr("height", function (d) {
-                        return d.bbox.height;
                     });
                 initiateZoom();
             }
@@ -363,6 +300,23 @@
             var title = document.getElementById("infobox-title");
             var content = document.getElementById("infobox-body");
             content.innerHTML = "";
+        }
+
+        function buildInfoString(d, data) {
+            let country = d.properties.name_long;
+                        let ineq = "";
+                        let year = "";
+                        if (country in data) {
+                            ineq = data[country]['World Bank Gini']['%'];
+                            year = " (" + data[country]['World Bank Gini']['Year'] + ")";
+                            if (ineq == "")
+                            {
+                                ineq = "No data available";
+                                year = ""
+                            }
+                        }
+                        else ineq = "No data available";
+                        return d.properties.name_long + year + ": " + ineq;
         }
 
     </script>
