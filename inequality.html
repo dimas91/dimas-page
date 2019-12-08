@@ -264,8 +264,12 @@
                         let ineq = "";
                         if (country in inequalityData) {
                             ineq = inequalityData[country]['World Bank Gini']['%'];
+                            if (ineq == "")
+                            {
+                                ineq = "No data available";
+                            }
                         }
-                        else ineq = "No data available"
+                        else ineq = "No data available";
                         return tooltip.style("visibility", "visible")
                             .text(d.properties.name_long + ": " + ineq);
                     })
