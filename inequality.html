@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-    <title>Inequality Visualization</title>
+    <title>Wealth Inequality By Country</title>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
     <script src="https://d3js.org/d3-color.v1.min.js"></script>
     <script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
@@ -16,7 +16,7 @@
         body {
         margin: 0;
         background-color: #2A2C39;
-        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-family: sans-serif;
         font-weight: 200;
         font-size: 17px;
       }
@@ -46,6 +46,7 @@
       }
       .infobox {
         position: absolute;
+        padding: 4px;
         z-index: 10;
         visibility: hidden;
         background: lightgray;
@@ -56,6 +57,7 @@
 <body>
     <div id="map-holder"></div>
     <script type="text/javascript">
+        // Thanks to https://medium.com/@andybarefoot/making-a-map-using-d3-js-8aa3637304ee
 
         // DEFINE VARIABLES
         // Define size of map group
@@ -204,7 +206,6 @@
             return response;
         }
         var inequalityData;
-        console.log(inequalityData);
 
         fetchAsync()
             .then(data => inequalityData = data)
@@ -212,8 +213,7 @@
 
         // get map data
         var doJson = d3.json(
-            //"https://raw.githubusercontent.com/andybarefoot/andybarefoot-www/master/maps/mapdata/custom50.json",
-            "https://raw.githubusercontent.com/andybarefoot/andybarefoot-www/master/maps/mapdata/custom50.json",
+            "http://dimas.io/data/world.json",  // Or generate your own GeoJSON from https://geojson-maps.ash.ms/
             function (json) {
                 //Bind data and create one path per GeoJSON feature
                 countriesGroup = svg.append("g").attr("id", "map");
@@ -232,54 +232,49 @@
                     .enter()
                     .append("path")
                     .attr("d", path)
-                    /*.attr("id", function (d, i) {
-                        return "country-" + d.properties.name;
-                    })*/
                     .attr("id", function (d, i) {
-                        return "country" + d.properties.iso_a3;
+                        return "country" + d.properties.name_long;
                     })
                     .attr("class", "country")
                     //      .attr("stroke-width", 10)
                     //      .attr("stroke", "#ff0000")
                     .attr("data-country-name", function (d, i) {
-                        return d.properties.name;
+                        return d.properties.name_long;
                     })
                     .attr("data-country-worldbankgini", function (d, i) {
-                        let country = d.properties.name;
+                        let country = d.properties.name_long;
                         if (country in inequalityData)
                             return inequalityData[country]['World Bank Gini']['%'];
                         else return "";
                     })
                     .attr("fill", function (d, i) {
-                        let country = d.properties.name;
+                        let country = d.properties.name_long;
                         if (country in inequalityData) {
                             let ineq = inequalityData[country]['World Bank Gini']['%'];
                             if (ineq == "") return "#d0d0d0";
                             return d3.interpolatePlasma(ineq / 50 - 0.4);
                         }
                         else {
-                            console.log("No data for " + country);
                             return "#d0d0d0";
                         }
                     })
-                    // add a mouseover action to show name label for feature/country
-                    /*.on("mouseover", function (d, i) {
-                        d3.select("#countryLabel" + d.properties.iso_a3).style("display", "block");
-
-                        let country = d.properties.name;
+                    // Add mouseover to return tooltip (infobox) for the current country
+                    .on("mouseover", function (d) {
+                        let country = d.properties.name_long;
+                        let ineq = "";
                         if (country in inequalityData) {
+                            ineq = inequalityData[country]['World Bank Gini']['%'];
                         }
-
+                        else ineq = "No data available"
+                        return tooltip.style("visibility", "visible")
+                            .text(d.properties.name_long + ": " + ineq);
                     })
-                    .on("mouseout", function (d, i) {
-                        d3.select("#countryLabel" + d.properties.iso_a3).style("display", "none");
-                    })*/
-                    .on("mouseover", function (d) { 
-                        return tooltip.style("visibility", "visible")//; })
-                        .text(d.properties.name); })
                     .on("mousemove", function () {
                         return tooltip.style("top",
                             (d3.event.pageY - 10) + "px").style("left", (d3.event.pageX + 10) + "px");
+                    })
+                    .on("mouseout", function () {
+                        return tooltip.style("visibility", "hidden");
                     })
                     // add an onclick action to zoom into clicked country
                     .on("click", function (d, i) {
@@ -303,52 +298,44 @@
                             "translate(" + path.centroid(d)[0] + "," + path.centroid(d)[1] + ")"
                         );
                     })
-                    // add mouseover functionality to the label
-                    /*.on("mouseover", function (d, i) {
-                        d3.select(this).style("display", "block");
-                    })
-                    .on("mouseout", function (d, i) {
-                        d3.select(this).style("display", "none");
-                    })*/
-
                     .on("mouseout", function () { return tooltip.style("visibility", "hidden"); })
                     // add an onlcick action to zoom into clicked country
                     .on("click", function (d, i) {
-                    //d3.selectAll(".country").classed("country-on", false);
-                    //d3.select("#country" + d.properties.iso_a3).classed("country-on", true);
-                    boxZoom(path.bounds(d), path.centroid(d), 20);
-                });
-        // add the text to the label group showing country name
-        countryLabels
-            .append("text")
-            .attr("class", "countryName")
-            .style("text-anchor", "middle")
-            .attr("dx", 0)
-            .attr("dy", 0)
-            .text(function (d) {
-                let country = d.properties.name;
-                if (country in inequalityData) {
-                    let ineq = inequalityData[country]['World Bank Gini']['%'];
-                    if (ineq == "") return d.properties.name + ": No data";
-                    return d.properties.name + ": " + inequalityData[country]['World Bank Gini']['%'];
-                }
-                return d.properties.name + ": No data";
-            })
-            .call(getTextBox);
-        // add a background rectangle the same size as the text
-        countryLabels
-            .insert("rect", "text")
-            .attr("class", "countryLabelBg")
-            .attr("transform", function (d) {
-                return "translate(" + (d.bbox.x - 2) + "," + d.bbox.y + ")";
-            })
-            .attr("width", function (d) {
-                return d.bbox.width + 4;
-            })
-            .attr("height", function (d) {
-                return d.bbox.height;
-            });
-        initiateZoom();
+                        //d3.selectAll(".country").classed("country-on", false);
+                        //d3.select("#country" + d.properties.iso_a3).classed("country-on", true);
+                        boxZoom(path.bounds(d), path.centroid(d), 20);
+                    });
+                // add the text to the label group showing country name
+                countryLabels
+                    .append("text")
+                    .attr("class", "countryName")
+                    .style("text-anchor", "middle")
+                    .attr("dx", 0)
+                    .attr("dy", 0)
+                    .text(function (d) {
+                        let country = d.properties.name_long;
+                        if (country in inequalityData) {
+                            let ineq = inequalityData[country]['World Bank Gini']['%'];
+                            if (ineq == "") return country + ": No data";
+                            return country + ": " + inequalityData[country]['World Bank Gini']['%'];
+                        }
+                        return country + ": No data";
+                    })
+                    .call(getTextBox);
+                // add a background rectangle the same size as the text
+                countryLabels
+                    .insert("rect", "text")
+                    .attr("class", "countryLabelBg")
+                    .attr("transform", function (d) {
+                        return "translate(" + (d.bbox.x - 2) + "," + d.bbox.y + ")";
+                    })
+                    .attr("width", function (d) {
+                        return d.bbox.width + 4;
+                    })
+                    .attr("height", function (d) {
+                        return d.bbox.height;
+                    });
+                initiateZoom();
             }
         );
 
@@ -363,8 +350,16 @@
 
         var tooltip = d3.select("body")
             .append("div")
+            .attr("id", "infobox")
             .attr("class", "infobox")
             .text("a simple tooltip");
+
+        function populateInfoBox(name, ineq) {
+            var div = document.getElementById("infobox");
+            var title = document.getElementById("infobox-title");
+            var content = document.getElementById("infobox-body");
+            content.innerHTML = "";
+        }
 
     </script>
 </body>
