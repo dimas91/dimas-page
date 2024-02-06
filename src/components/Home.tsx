@@ -11,7 +11,6 @@ function Home() {
         <li><i className={"fab fa-github fa-lg"}></i><a href="https://github.com/dimas91" target="_blank" rel="noreferrer" style={{ padding: "0em .5em" }}>Github</a></li>
         <li><i className={"fab fa-soundcloud fa-lg"}></i><a href="https://soundcloud.com/dimas-music" target="_blank" rel="noreferrer" style={{ padding: "0em .5em" }}>Soundcloud</a></li>
       </ul>
-      <p>Or send me an email: dimas.tichelaar at gmail dot com</p>
       <p>❤ - Dimas</p>
     </div>
   )
