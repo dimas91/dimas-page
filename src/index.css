@@ -71,3 +71,34 @@ header .title {
   width: 3.5rem;
   height: 3.5rem;
 }
+
+/* Navbar styles */
+.site-navbar {
+  position: sticky;
+  top: 0;
+  background: #ffffff;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+  z-index: 50;
+}
+.site-navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem 1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.site-navbar a {
+  text-decoration: none;
+  color: #222;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+}
+.site-navbar a.active {
+  background: #222;
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .site-navbar ul { gap: 0.5rem; padding: 0.5rem; }
+}
