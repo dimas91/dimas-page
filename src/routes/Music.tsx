@@ -9,7 +9,7 @@ const Music: React.FC = () => {
       <p>You can find some of my tracks and radio episodes here. Below are episode tracklists and audio links.</p>
 
       {Array.isArray(episodes) && episodes.length ? (
-        episodes.map((ep: any) => (
+        episodes.reverse().map((ep: any) => (
           <Tracklist key={ep.slug} episode={ep} />
         ))
       ) : (
