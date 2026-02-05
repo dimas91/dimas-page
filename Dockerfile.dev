@@ -11,8 +11,8 @@ RUN npm install
 # Copy the contents of the project to the image
 COPY . .
 
-# Validate typescript installation
-RUN tsc --version
+# Validate typescript installation (use npx to run local binary)
+RUN npx tsc --version
 
 # Run 'npm start' when the container starts.
 CMD ["npm", "run", "start"]

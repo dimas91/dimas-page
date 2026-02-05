@@ -1,0 +1,58 @@
+.tracklist {
+  border: 1px solid #eee;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tracklist-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tracklist-title {
+  margin: 0;
+}
+
+.tracklist-toggle {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: .25rem .5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tracklist-audio {
+  width: 100%;
+  margin-top: .5rem;
+}
+
+.tracks-wrapper {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 260ms ease, opacity 200ms ease;
+}
+
+.tracks-wrapper.open {
+  /* large enough to contain the list; keeps the transition simple */
+  max-height: 1000px;
+  opacity: 1;
+}
+
+.tracks-list {
+  margin-top: .75rem;
+  padding-left: 0;
+  list-style: none;
+}
+
+.tracks-item {
+  margin-bottom: .25rem;
+  display: flex;
+  align-items: baseline;
+}
+
+.tracks-num {
+  margin-right: .5rem;
+  font-weight: 700;
+}
