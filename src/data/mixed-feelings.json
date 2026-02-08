@@ -278,7 +278,7 @@
     "tracks": [
       "Chris Reece ft. John Williams - Life Is Amazing (Original Mix)",
       "Calvin Harris & Nicky Romero - Iron (Original Mix)",
-      "Ti�sto & Allure - Pair Of Dice (Original Mix)",
+      "Tiësto & Allure - Pair Of Dice (Original Mix)",
       "DubVision & Project 46 ft. Donna Lewis - You & I (Original Mix)",
       "Dinka - Polarity (Original Mix)",
       "Bluestone - Capetown (Original Mix)",
@@ -453,11 +453,11 @@
       "DallasK - Vice (Original Mix)",
       "Hard Rock Sofa - Rasputin (Original Mix)",
       "Dart Rayne & Yura Moonlight ft. Cate Kanell - Shelter Me (Erick Strong Remix)",
-      "Ti�sto - Chasing Summers (R3hab & Quintino Remix)",
+      "Tiësto - Chasing Summers (R3hab & Quintino Remix)",
       "Fafaq - Opus Magnum (Paul Ercossa Remix)",
       "Tritonal ft. Underdown - Bullet That Saved Me (Original Mix)",
       "Heatbeat - Game Over (Original Mix)",
-      "Ti�sto vs. Armin Van Buuren & W&W vs. Dirty South vs. GTA, Digital Lab & Henrix - Hit The D# (Triarchy Edit)",
+      "Tiësto vs. Armin Van Buuren & W&W vs. Dirty South vs. GTA, Digital Lab & Henrix - Hit The D# (Triarchy Edit)",
       "Super8 & Tab - Teardrops (Original Mix)",
       "Solis & Sean Truby ft. Sue McLaren - Closer To The Earth (Club Mix)"
     ]
@@ -516,7 +516,7 @@
       "Nsfw & Sasson - Daybreak (Original Mix)",
       "Armin van Buuren ft. Lauren Evans - Alone (Extended Mix)",
       "Andy Duguid ft. Julie Thompson - Skin & Bones (Original Mix)",
-      "Savant & Adam K � Damage (Original Mix)",
+      "Savant & Adam K - Damage (Original Mix)",
       "Sander van Doorn, MAKO & DubVision ft. Mariana Bell - Into The Light (Original Mix)",
       "Starkillers & Kai ft. Richard Beynon - Rampage (Original Mix)",
       "Toby Green - Quillion (Mike Hawkins & Pablo Oliveros Edit)",
@@ -575,7 +575,7 @@
       "Alex Metric & Jacques Lu Cont ft. Malin - Safe With You (Dub Mix)",
       "Rihanna ft. David Guetta - Right Now (Sick Individuals Remix)",
       "Grube & Hovsepian ft. Vice - Memory Lane (Skytech Remix)",
-      "R�yksopp ft. Susanne Sundfer - Running To The Sea (Marcus Sch�ssow Remix)",
+      "Röyksopp ft. Susanne Sundfer - Running To The Sea (Marcus Schössow Remix)",
       "BT - Skylarking (Ilan Bluestone Remix)",
       "Super8 & Tab ft. Julie thompson - Your Secrets Safe (Original Mix)"
     ]
@@ -648,7 +648,7 @@
       "Bryan Adams & Loverush UK - Tonight In Babylon (Andy Duguid Remix)",
       "Fisherman & Hawkins - Virus (Original Mix)",
       "Ce3sar - Lakota (Ilan Bluestone Remix)",
-      "Lush & Simon � Adrenaline (Original Mix)",
+      "Lush & Simon - Adrenaline (Original Mix)",
       "ReOrder & Ian Standerwick pres. Skypatrol - Folding Your Universe (Original Mix)"
     ]
   },
@@ -827,10 +827,10 @@
     "tracks": [
       "Madeon - Imperium (Original Mix)",
       "Martin Garrix & MOTI - Virus (Original Mix)",
-      "Charli XCX � Boom Clap (Marcus Schossow Remix)",
+      "Charli XCX - Boom Clap (Marcus Schossow Remix)",
       "Galantis - Runaway (U & I) (Extended Mix)",
       "Audien vs. 3LAU ft. Bright Lights - How You Love Hindsight (Audien Edit)",
-      "Cash Cash � Surrender (Tritonal Remix)",
+      "Cash Cash - Surrender (Tritonal Remix)",
       "Lush & Simon, Uforik - Hydrogen (Original Mix)",
       "Deadmau5 - Some Chords (Dillon Francis Remix)",
       "Galantis vs. Tom & Jame - Combat You (Dannic Ultra Bootleg)",
@@ -853,7 +853,7 @@
       "Joe Garston - Prelude in JG (Original Mix)",
       "Cazzette ft. Terri B - Blind Heart (Didrick Club Mix)",
       "Jay Cosmic & Husman - Universe (Original Mix)",
-      "Above & Beyond ft. Zo� Johnston - We're All We Need (Extended Mix)",
+      "Above & Beyond ft. Zoë Johnston - We're All We Need (Extended Mix)",
       "Vicetone - United We Dance (Club Mix)",
       "Tritonal - Anchor (Lush & Simon Remix)",
       "Ilan Bluestone - Atlantis (Original Mix)",
@@ -908,13 +908,69 @@
       "Axwell & Ingrosso - On My Way (Extended Mix)",
       "Don Diablo ft. Maluca - My Window (Original Mix)",
       "Michael Woods - Overflowing (Original Mix)",
-      "Above & Beyond ft. Zo� Johnston - Peace Of Mind (Extended Mix)",
+      "Above & Beyond ft. Zoë Johnston - Peace Of Mind (Extended Mix)",
       "Ilan Bluestone - 43 (Original Mix)",
       "Luke Bond & Omnia - Reflex (Original Mix)",
       "Super8 & Tab ft. Julie Thompson - Patience (Original Mix)",
       "Sean Tyas - Da Doo Da Dah (Original Mix)",
       "Abstract Vision & Aimoon - #Energy (Original Mix)",
       "RAM & Susana - Someone Like You (RAM & Standerwick Remix)"
+    ]
+  },
+  {
+    "name": "046",
+    "slug": "046",
+    "url": "https://audio.dimas.io/dimas_-_mixed_feelings_046.mp3",
+    "tracks": [
+      "TODO"
+    ]
+  },
+  {
+    "name": "047",
+    "slug": "047",
+    "url": "https://audio.dimas.io/dimas_-_mixed_feelings_047.mp3",
+    "tracks": [
+      "TODO"
+    ]
+  },
+  {
+    "name": "048",
+    "slug": "048",
+    "url": "https://audio.dimas.io/dimas_-_mixed_feelings_048.mp3",
+    "tracks": [
+      "TODO"
+    ]
+  },
+  {
+    "name": "049",
+    "slug": "049",
+    "url": "https://audio.dimas.io/dimas_-_mixed_feelings_049.mp3",
+    "tracks": [
+      "TODO"
+    ]
+  },
+  {
+    "name": "050",
+    "slug": "050",
+    "url": "https://audio.dimas.io/dimas_-_mixed_feelings_050.mp3",
+    "tracks": [
+      "TODO"
+    ]
+  },
+  {
+    "name": "051",
+    "slug": "051",
+    "url": "https://audio.dimas.io/dimas_-_mixed_feelings_051.mp3",
+    "tracks": [
+      "TODO"
+    ]
+  },
+  {
+    "name": "052",
+    "slug": "052",
+    "url": "https://audio.dimas.io/dimas_-_mixed_feelings_052.mp3",
+    "tracks": [
+      "TODO"
     ]
   },
   {
@@ -931,13 +987,69 @@
       "Dillon Francis & DJ Snake - Get Low (Original Mix)",
       "Martin Garrix & Jay Hardway - Wizard (Mike Hawkins Remix)",
       "Chris Lake ft. Jareth - Helium (Merk & Kremont Remix)",
-      "Rafa�l Frost ft. Yassine - Nightshift (Original Mix)",
+      "Rafaël Frost ft. Yassine - Nightshift (Original Mix)",
       "Gareth Emery ft. Krewella - Lights & Thunder (Original Mix)",
       "Khomha - Asylum (Original Mix)",
       "Lush & Simon - Adrenaline (Original Mix)",
       "Armin van Buuren - Ping Pong (Original Mix)",
       "Max Graham - The Evil ID (Mark Sherry Remix)",
       "Kat Krazy ft. Elkka - Siren (Armin Van Buuren Remix)"
+    ]
+  },
+  {
+    "name": "2015 Mainstage Mix",
+    "slug": "2015_mainstage_mix",
+    "url": "https://audio.dimas.io/dimas_-_mainstage_mix_2015.mp3",
+    "tracks": [
+      "TODO"
+    ]
+  },
+  {
+    "name": "2016 Mainstage Mix",
+    "slug": "2016_mainstage_mix",
+    "url": "https://audio.dimas.io/dimas_-_mainstage_mix_2016.mp3",
+    "tracks": [
+      "TODO"
+    ]
+  },
+  {
+    "name": "2017 Mainstage Mix",
+    "slug": "2017_mainstage_mix",
+    "url": "https://audio.dimas.io/dimas_-_mainstage_mix_2017.mp3",
+    "tracks": [
+      "TODO"
+    ]
+  },
+  {
+    "name": "2020 Mainstage Mix",
+    "slug": "2020_mainstage_mix",
+    "url": "https://audio.dimas.io/dimas_-_mainstage_mix_2020.mp3",
+    "tracks": [
+      "TODO"
+    ]
+  },
+  {
+    "name": "Yearmix 2007",
+    "slug": "yearmix_2007",
+    "url": "https://audio.dimas.io/dimas_-_mixed_feelings_yearmix_2007.mp3",
+    "tracks": [
+      "TODO"
+    ]
+  },
+  {
+    "name": "Yearmix 2011",
+    "slug": "yearmix_2011",
+    "url": "https://audio.dimas.io/dimas_-_mixed_feelings_yearmix_2011.mp3",
+    "tracks": [
+      "TODO"
+    ]
+  },
+  {
+    "name": "Yearmix 2012",
+    "slug": "yearmix_2012",
+    "url": "https://audio.dimas.io/dimas_-_mixed_feelings_yearmix_2012.mp3",
+    "tracks": [
+      "TODO"
     ]
   },
   {
